@@ -18,3 +18,8 @@ The image is called photo.png and is placed in static\images => the reference is
 Shortcuts Cheat Sheet:
 - CTRL + F => Search
 - CTRL + S => Save
+
+To push your changes to your live website:
+- git add .
+- git commit -m "a meaningful message not too long"
+- git push
