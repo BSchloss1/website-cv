@@ -12,6 +12,7 @@ outputs:
     - "RSS"
 
 enableRobotsTXT: true
+canonifyURLs: true
 caches:
   images:
     dir: :cacheDir/images
