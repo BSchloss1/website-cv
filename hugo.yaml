@@ -12,7 +12,9 @@ outputs:
     - "RSS"
 
 enableRobotsTXT: true
-
+caches:
+  images:
+    dir: :cacheDir/images
 #services:
   #googleAnalytics:
     #id: G-MEASUREMENT_ID
