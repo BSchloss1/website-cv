@@ -1,0 +1,615 @@
+baseURL: "#"
+languageCode: "en-us"
+title: "Basma Schlosshan"
+theme: hugo-profile
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+#Menus:
+ # main:
+  #  - identifier: blog
+   #   name: Blog
+   #   title: Blog posts
+   #   url: /blogs
+    #  weight: 1
+   # - identifier: gallery
+   #   name: Gallery
+   #   title: Blog posts
+   #   url: /gallery
+   #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Basma Schlosshan"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  color:
+    # Body text (Keep this dark for readability)
+    textColor: "#343a40"
+    secondaryTextColor: "#6c757d"
+
+    # BURGUNDY COLORS:
+    textLinkColor: "#800020"
+    primaryColor: "#800020"
+
+    # Backgrounds
+    backgroundColor: "#eaedf0"
+    secondaryBackgroundColor: "#64ffda1a"
+    secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Basma Schlosshan" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Basma Schlosshan."
+    subtitle: "I make AI Simple, Useful, and Human"
+    content: "I connect people, strategy, and technology to design digital solutions that accelerate organizations and create measurable impact."
+    image: /images/Basma Shooting 2 Fotograf.png
+
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://example.com
+        - icon: fab fa-discord
+          url: https://example.com
+
+      #customIcons:
+        #- icon: # /fav.png
+          # url: "#"
+
+  # About
+  about:
+   enable: true
+   title: "About Me"
+   image: "/images/Basmashooting 1 fotograf.png"
+   content: |-
+        "I operate where business strategy meets technical execution. With a background spanning **telecommunications, energy, and healthcare**, I don’t just implement tools—I optimize the way organizations work.
+
+        From driving operational excellence through Process Mining to leading large-scale IT transformations, my goal is to turn complex data into clear action. I build bridges between IT and business units, ensuring that AI and digital solutions are not just "future-oriented," but practical, efficient, and deeply human."
+  
+   skills:
+      enable: true
+      title: "Core Competencies (Strategy):"
+      items:
+         - "Digital Transformation Strategy"
+         - "Change Management"
+         - "Agile Leadership (SAFe/Scrum)"
+         - "Stakeholder Management"
+         - "Process Excellence"
+
+
+
+
+  
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - company: "KV Nordrhein"
+        companyUrl: "#"
+        jobs:
+          - name: "IT Project Lead"
+            date: "Sep 2024 - Feb 2025"
+            content: "Leading the conception of a massive learning ecosystem.
+              
+              - **Impact:** Initiated a learning platform for 1,000+ employees and 24,000+ external members.
+              - **Strategy:** Secured budget, defined scope for SaaS LMS, and designed the change management strategy.
+              - **Leadership:** Bridged the gap between technical requirements and executive business goals."
+
+      - company: "Vodafone GmbH"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Expert Strategy & Transformation"
+            date: "Aug 2020 - Jun 2024" 
+            info:
+              content: Celonis
+            content: |
+              Driving efficiency through process intelligence.
+              
+              - **Process Mining:** Developed the integration strategy for Celonis Process Mining to visualize and optimize workflows.
+              - **Simplification:** led a radical product portfolio simplification
+              - **Agile Leadership:** Led international system integration teams using SAFe and Scrum methodologies.
+
+          - name: "Digital Specialist"
+            date: "Mar 2015 - Jul 2020"
+            info:
+              content: CRM & IMS
+            content: |
+                      Optimizing input management with AI.
+              
+                      - **AI Implementation:** Introduced an AI-based input management system (ThinkOwl) for automated document processing.
+                      - **CRM:** Co-designed CRM projects and translated stakeholder needs into technical specifications.
+          
+
+      - company: "Exxeta GmbH"
+        companyUrl: "https://example.com"
+        jobs: 
+          - name: "Energy Consultant & QA"
+            date: "Aug 2011 - Jun 2013"
+            featuredItems:
+            fontAwesomeIcons:
+              - icon: fa-brands fa-react
+                url: https://react.dev/
+              - icon: fab fa-x-twitter
+                url: https://example.com
+            customIcons:
+              - icon: /fav.png
+                url: "https://example.com"
+            content: |
+                    
+                    Managed technical projects with a strong focus on software integration.
+             
+                    - **Technical QA:** Conducted system testing and detailed technical documentation.
+                    - **Integration:** Managed software integration projects in the energy sector.
+# --- VOLUNTEER WORK ---
+      - company: "Social Engagement"
+        companyUrl: "#"
+        jobs:
+          - name: "Mentor & Networker | #WomenInTech"
+            date: "2020 - Present"
+            content: |
+              Active engagement in "Women for Women" (Vodafone) and #WomenInTech networks.
+               
+               - **Empowerment:** Mentoring and lectures to increase the visibility of women in STEM.
+               - **Networking:** Building support structures for female tech professionals.
+
+          - name: "Digital Education Trainer | Schools"
+            date: "2020"
+            content: |
+               Supported the digitalization of schools during the Covid-19 pandemic.
+               
+               - **Impact:** Successful implementation of Microsoft 365 and training of teaching staff.
+               - **Hybrid Learning:** enabled hybrid learning formats with high social impact.
+
+          - name: "Parents' Council Chair | Kita"
+            date: "2018 - 2022"
+            content: |
+               Representing parents and organizing support structures.
+               
+               - **Organization:** Introduced relief measures (e.g., domestic help) for families.
+               - **Communication:** Promoted team cooperation through constructive dialogue with pedagogical staff.
+      - company: #
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Diploma Thesis"
+            date: "June 2017 - Nov 2019"
+            content: |
+             I completed my Diploma Thesis at Miele & Cie. KG. I focused on international market entry strategies and supported local sales operations.
+
+              - Analyzed the market entry strategy for Miele in Morocco.
+              - Created product catalogs and supported local sales activities.
+
+      - company: #
+        companyUrl: "https://example.com"
+        jobs:
+            - name: "Sales & Assistence"
+              date: "2004 - 2011"
+              content: "I worked in various Sales & Assistance roles during my early career (2004 – 2011). I gained diverse experience across multiple companies, ranging from executive support to B2B sales.
+ 
+            - Supported executive management (Dong Feng GmbH) and gained B2B sales experience in HR software (ADP GmbH).
+            - Managed customer service, event organization, and retail sales, developing strong intercultural communication skills."
+
+  # Education
+  education:
+    enable: true
+    title: "Education"
+    index: false
+    items:
+    # --- YOUR DEGREES ---
+      - title: "Master of Science (M.Sc.)"
+        school:
+          name: "IU, International University, Remote"
+          url: "https://example.org"
+        date: "2020 - 2023"
+        GPA: ""
+        content: |
+         **Business Computer Science**
+                    
+          - Focus: Digital Transformation, IT Project Management, Business Intelligence.
+          - Science meets Practice: My Master's thesis provided the strategic blueprint for the successful Celonis implementation at Vodafone.
+
+      - title: "Business Administration"
+        school:
+          name: "Westfälische Hochschule, Gelsenkirchen"
+          url: "https://example.org"
+        date: "2003 - 2009"
+        GPALocation: "Gelsenkirchen, Germany"
+        Location: "Gelsenkirchen, Germany"
+        content: |
+         
+         
+         **Diploma in Business Administration**
+          
+         - Focus: Logistics and Business Informatics
+         - Thesis at Miele: “Success Factors in International Consumer Goods Distribution – Illustrated by the Market Entry of Miele Home Appliances in North Africa.”
+    
+    #Certification
+      #- title: "Certified AI Business Consulting "
+        #school:
+          #name: "IU, International University, Remote"
+         # icon: "certification icon.png"
+#url: "https://example.org"
+        #date: "2025"
+        #GPALocation: "Gelsenkirchen, Germany"
+        ##Location: "Gelsenkirchen, Germany"
+        #content: |
+        #  - Focused on bridging AI, business strategy, and digital transformation
+
+        #  Key modules: Use Case Evaluation, Machine Learning, Deep Learning, and AI Implementation
+     # - title: "Certified Leader Business Class"
+       # school:
+      #    name: "Businessart Academy, Remote"
+     #     url: "https://example.org"
+      #  date: "2025"
+      #  GPALocation: "Gelsenkirchen, Germany"
+      #  Location: "Gelsenkirchen, Germany"
+       # content: |
+       #   - Enhanced goal achievement and productivity through SMART+POWER methods
+
+      #    Applied the 80/20 rule and fostered positive habits with a proactive mindset
+
+      #  featuredLink:
+        #  enable: false
+     #     name: "Certification"
+       #   url: "https://example.com"
+     # - title: "Certified SAP SCM Solutions Consultant"
+     #   school:
+     #     name: "IAL, Düsseldorf"
+     #     url: "https://example.org"
+     #   date: "2014 - 2015"
+     #   GPA: 
+     #   featuredLink:
+      #    enable: false
+      #    url: "https://example.com"
+
+    #  - title: "Scholarship #womenInTech"
+     #   school:
+    #      name: "IU, International University"
+    #      url: "https://example.org"
+    #    date: "2020 - 2023"
+    #    GPA: 
+     #   featuredLink:
+     #     enable: false
+     #     url: "https://example.com"
+
+  
+ # Achievements (Certifications & Scholarships)
+  achievements:
+    enable: true
+    title: "Achievements & Certifications"
+    items:
+    # 1. AI Certification (Moved from Education)
+      - title: "Certified AI Business Consulting"
+        content: "Specialized certification bridging AI technology with business strategy. Focus areas: Use Case Evaluation, Machine Learning, Deep Learning, and AI Implementation (IU International University, 2025-PRESENT)."
+        url: "#"
+        image: "/images/AI consultant.png" 
+     # 2. Leadership Certification
+      - title: "Certified Leader Business Class"
+        content: "Certification in effective goal setting (SMART+POWER), productivity strategies (Pareto), and mindset management from Businessart Academy (2025)."
+        url: "#"
+        image: "/images/leadership.png"
+    # 3. Scholarship
+      - title: "#WomenInTech Scholarship"
+        content: "Recipient of the competitive scholarship for the M.Sc. Business Informatics program at IU International University."
+        url: "#"
+        image: "/images/scholarship2.png"
+      
+      # 4. SAP Certification
+      - title: "Certified SAP SCM Consultant"
+        content: "Certified Application Associate in Procurement (SAP ERP 6.0) and SCM Solutions Consultant."
+        url: "#"
+        image: "/images/sap.png"
+
+
+
+  # projects
+  projects:
+    enable: true
+    title: "Projects"
+    items:
+    # 1. LEARNING ECOSYSTEM (KV Nordrhein)
+      - title: "Future Skills Learning Ecosystem"
+        content: "trategic conception of an AI-powered learning ecosystem for 25,000 users. Introduced Synthesia for scalable content creation and secured executive stakeholder buy-in."
+        image: /images/Ecosystem Lernen.png
+        featured:
+          name: Portfolio
+          link: "#"
+        badges:
+          - "Digital Strategy"
+          - "LMS Platform"
+          - "Change Mgmt"
+          - "Synthesia"
+        #links:
+         # - icon: fa fa-envelope
+        #    url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+         # - icon: fab fa-github
+         #   url: https://github.com/gurusabarish/hugo-profile
+          #- icon: fab fa-twitter
+          #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+
+    # 2. IT PRODUCT MANAGEMENT (KV Nordrhein) - NEU
+      - title: "IT Product Management"
+        content: "Managing the agile lifecycle for digital services like 'Praxis for Future'. Orchestrating backlogs, user stories, and sprint planning in Azure DevOps to ensure successful delivery."
+        image: /images/Productmgt.png
+        featured:
+          name: Portfolio
+        
+        link: "#"
+        badges:
+          - "Product Owner"
+          - "Azure DevOps"
+          - "Digital Services"
+        links: []
+
+        # 3. PROCESS MINING (Vodafone)
+      - title: "Process Intelligence & Strategic Transformation"
+        content: "Executed a dual transformation strategy: Implemented Celonis Process Mining for workflow transparency and led a radical product portfolio simplification, directly driving a ~10% NPS increase."
+        image: /images/Celonis.png
+        featured:
+          name: Portfolio
+          link: "#"
+        badges:
+          - "Celonis"
+          - "Portfolio Strategy"
+          - "+10% NPS"
+        links: []
+
+        # 4. AI AUTOMATION (Vodafone)
+      - title: "AI-Powered Automation"
+        content: "ntroduction and training of ThinkOwl AI for input management. Achieved a 90% automation rate and reduced manual rework by 40%."
+        image: /images/AI Automation.png
+        featured:
+          name: Portfolio
+          link: "#"
+        badges:
+          - "AI Implementation"
+          - "Automation"
+          - "ThinkOwl"
+        links: []
+
+      # 5. GLOBAL CRM (Vodafone)
+      - title: "Global CRM & User Adoption"
+        content: "Steered international Pega CRM rollouts with a strong focus on system stability and user enablement. Led change management initiatives and training programs, boosting user satisfaction by 25%."
+        image: /images/CRM;.png
+        featured:
+          name: Portfolio
+          link: "#"
+        badges:
+          - "Pega Systems"
+          - "Change Mgmt"
+          - "Stakeholder Mgmt"
+        links: []
+
+      # 6. AGILE LEADERSHIP (Vodafone/Exxeta)
+      - title: "Agile Leadership & Culture"
+        content: "Leading international teams using agile methodologies (SAFe, Scrum). Establishing new collaboration processes to accelerate digital delivery and team performance."
+        image: /images/Teamwork.png
+        featured:
+          name: Portfolio
+          link: "#"
+        badges:
+          - "SAFe & Scrum"
+          - "Team Leadership"
+          - "New Work"
+        links: []
+  
+ 
+  #Contact
+  contact:
+    enable: true
+    title: "Ready to Transform?"
+    content: "#"
+    btnName: "Contact Me"
+    btnLink: "mailto:basma@schlosshan.de"
+   
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "basma@schlosshan.de"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      discord: https://discord.com
+      linkedin: https://linkedin.com
+     
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "Basma Schlosshan. All rights reserved."
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+
+
+  customScripts: |
+    <style>
+    /* --- 1. EXISTING SETTINGS: Adjust Font Sizes --- */
+      #hero h1, 
+      #hero .hero-title, 
+      .hero-section .hero-title {
+        font-size: 3rem !important; 
+        line-height: 1.2 !important;
+      }
+
+      #hero h2, 
+      #hero .hero-subtitle, 
+      .hero-section .hero-subtitle {
+        font-size: 1.5rem !important; 
+        font-weight: 300 !important;
+        margin-top: 10px !important;
+      }
+
+      /* --- 2. NEW SETTINGS: Reduce Gap between Hero and About --- */
+      
+      /* Reduce the space at the bottom of the Hero section */
+      #hero {
+        padding-bottom: 0.5rem !important; /* Change to 0 if you want no space at all */
+        margin-bottom: 0 !important;
+      }
+
+      /* Reduce the space at the top of the About section */
+      #about {
+        padding-top: 0.5rem !important; /* Change to 0 if you want no space at all */
+        margin-top: 0 !important;
+      }
+
+      /* Hide horizontal rule/divider if present between sections */
+      #hero + hr, 
+      .hero-section + hr {
+        display: none !important;
+        margin: 0 !important;
+      }
+      /* Force the Name (H1) to be smaller */
+      #hero h1, 
+      #hero .hero-title,
+      .hero-section .hero-title {
+        font-size: 4rem !important; /* Adjust this number (e.g. 2.5rem for smaller) */
+        line-height: 1.5 !important;
+      }
+
+      /* Force the Slogan (Subtitle) to be smaller */
+      #hero h2, 
+      #hero .hero-subtitle,
+      .hero-section .hero-subtitle {
+        font-size: 2.5rem !important; /* Adjust this number */
+        font-weight: 300 !important;
+        margin-top: 10px !important;
+      }
+    </style>
