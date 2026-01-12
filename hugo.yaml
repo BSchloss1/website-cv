@@ -180,9 +180,9 @@ params:
       enable: true
       title: "Core Competencies (Strategy):"
       items:
-         - "Digital Transformation Strategy"
+         - "Digital Transformation"
          - "Change Management"
-         - "Agile Leadership (SAFe/Scrum)"
+         - "Agile Leadership"
          - "Stakeholder Management"
          - "Process Excellence"
 
@@ -408,7 +408,7 @@ params:
       - title: "Certified SAP SCM Consultant"
         content: "Certified Application Associate in Procurement (SAP ERP 6.0) and SCM Solutions Consultant."
         url: "#"
-        image: "/images/sap.png"
+        image: "/images/SAP.png"
 
 
 
