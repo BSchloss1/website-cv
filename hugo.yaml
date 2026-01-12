@@ -183,8 +183,8 @@ params:
          - "Digital Transformation"
          - "Change Management"
          - "Agile Leadership"
-         - "Stakeholder Management"
          - "Process Excellence"
+         - "Stakeholder Management"
 
 
 
@@ -203,7 +203,7 @@ params:
             content: "Leading the conception of a massive learning ecosystem.
               
               - **Impact:** Initiated a learning platform for 1,000+ employees and 24,000+ external members.
-              - **Strategy:** Secured budget, defined scope for SaaS LMS, and designed the change management strategy.
+              -  **Strategy:** Secured budget, defined scope for SaaS LMS, and designed the change management strategy.
               - **Leadership:** Bridged the gap between technical requirements and executive business goals."
 
       - company: "Vodafone GmbH"
@@ -217,8 +217,8 @@ params:
               Driving efficiency through process intelligence.
               
               - **Process Mining:** Developed the integration strategy for Celonis Process Mining to visualize and optimize workflows.
-              - **Simplification:** led a radical product portfolio simplification
               - **Agile Leadership:** Led international system integration teams using SAFe and Scrum methodologies.
+              - **Simplification:** led a radical product portfolio simplification
 
           - name: "Digital Specialist"
             date: "Mar 2015 - Jul 2020"
@@ -420,10 +420,10 @@ params:
     # 1. LEARNING ECOSYSTEM (KV Nordrhein)
       - title: "Future Skills Learning Ecosystem"
         content: "trategic conception of an AI-powered learning ecosystem for 25,000 users. Introduced Synthesia for scalable content creation and secured executive stakeholder buy-in."
-        image: /images/Ecosystem Lernen.png
+        image: /images/Screenshot 2026-01-12 kv.png
         featured:
           name: Portfolio
-          link: "#"
+          link: "/documents/Basma_Schlosshan_Portfolio.pdf#page=4"
         badges:
           - "Digital Strategy"
           - "LMS Platform"
