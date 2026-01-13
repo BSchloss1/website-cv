@@ -209,8 +209,7 @@ params:
         jobs:
           - name: "Expert Strategy & Transformation"
             date: "Aug 2020 - Jun 2024" 
-            content: |
-              Driving efficiency through process intelligence.
+            content:  Driving efficiency through process intelligence.
               
               - **Process Mining:** Developed the integration strategy for Celonis Process Mining to visualize and optimize workflows.
               - **Agile Leadership:** Led international system integration teams using SAFe and Scrum methodologies.
@@ -266,8 +265,7 @@ params:
 
           - name: "Parents' Council Chair | Kita"
             date: "2018 - 2022"
-            content: |
-               Representing parents and organizing support structures.
+            content: Representing parents and organizing support structures.
                
                - **Organization:** Introduced relief measures (e.g., domestic help) for families.
                - **Communication:** Promoted team cooperation through constructive dialogue with pedagogical staff.
