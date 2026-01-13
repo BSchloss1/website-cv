@@ -212,8 +212,6 @@ params:
         jobs:
           - name: "Expert Strategy & Transformation"
             date: "Aug 2020 - Jun 2024" 
-            info:
-            content: Celonis
             content: |
               Driving efficiency through process intelligence.
               
@@ -223,14 +221,11 @@ params:
 
           - name: "Digital Specialist"
             date: "Mar 2015 - Jul 2020"
-            info:
-              content: CRM & IMS
             content: |
-                      Optimizing input management with AI.
+              Optimizing input management with AI.
               
-                      - **AI Implementation:** Introduced an AI-based input management system (ThinkOwl) for automated document processing.
-                      - **CRM:** Co-designed CRM projects and translated stakeholder needs into technical specifications.
-          
+              - **AI Implementation:** Introduced an AI-based input management system (ThinkOwl) for automated document processing.
+              - **CRM:** Co-designed CRM projects and translated stakeholder needs into technical specifications.
 
       - company: "Exxeta GmbH"
         companyUrl: "https://example.com"
