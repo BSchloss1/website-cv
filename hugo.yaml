@@ -205,19 +205,20 @@ params:
               - **Strategy:** Secured budget, defined scope for SaaS LMS, and designed the change management strategy.
               - **Leadership:** Bridged the gap between technical requirements and executive business goals.
 
-      - company: "Vodafone GmbH"
-        jobs:
-          - name: "Expert Strategy & Transformation"
-            date: "Aug 2020 - Jun 2024" 
-            content: "Driving efficiency through process intelligence.
+      - company: "Vodafone Gmbh"
+        companyUrl: "#"
+        jobs: 
+         - name: "Expert Strategy & Transformation" 
+           date: "Aug 2020 - Jun 2024" 
+           content: "Driving efficiency through process intelligence.
               
               - **Process Mining:** Developed the integration strategy for Celonis Process Mining to visualize and optimize workflows.
               - **Agile Leadership:** Led international system integration teams using SAFe and Scrum methodologies.
               - **Simplification:** led a radical product portfolio simplification"
 
-          - name: "Digital Specialist"
-            date: "Mar 2015 - Jul 2020"
-            content: |
+         - name: "Digital Specialist"
+           date: "Mar 2015 - Jul 2020"
+           content: |
               Optimizing input management with AI.
               
               - **AI Implementation:** Introduced an AI-based input management system (ThinkOwl) for automated document processing.
@@ -243,6 +244,7 @@ params:
              
                     - **Technical QA:** Conducted system testing and detailed technical documentation.
                     - **Integration:** Managed software integration projects in the energy sector.
+
 # --- VOLUNTEER WORK ---
       - company: "Social Engagement"
         companyUrl: "#"
@@ -296,7 +298,8 @@ params:
     title: "Education"
     index: false
     items:
-    # --- YOUR DEGREES ---
+    
+ # --- YOUR DEGREES ---
       - title: "Master of Science (M.Sc.)"
         school:
           name: "IU, International University, Remote"
