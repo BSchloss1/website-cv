@@ -158,7 +158,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
-          url: https:linkedin.com/in/basmaschlosshan
+          url: https://linkedin.com/in/basmaschlosshan
         - icon: fab fa-discord
           url: https://example.com
 
