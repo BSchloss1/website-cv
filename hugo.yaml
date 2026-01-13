@@ -158,7 +158,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
-          url: https://example.com
+          url: https:linkedin.com/in/basmaschlosshan
         - icon: fab fa-discord
           url: https://example.com
 
@@ -468,7 +468,7 @@ params:
 
         # 4. AI AUTOMATION (Vodafone)
       - title: "AI-Powered Automation"
-        content: "ntroduction and training of ThinkOwl AI for input management. Achieved a 90% automation rate and reduced manual rework by 40%."
+        content: "Introduction and training of ThinkOwl AI for input management. Achieved a 90% automation rate and reduced manual rework by 40%."
         image: /images/ThikOwl.png
         featured:
           name: Portfolio
