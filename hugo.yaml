@@ -208,7 +208,6 @@ params:
 
 
       - company: "Vodafone GmbH"
-        companyUrl: "#"
         jobs:
           - name: "Expert Strategy & Transformation"
             date: "Aug 2020 - Jun 2024" 
