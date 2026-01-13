@@ -184,7 +184,7 @@ params:
          - "Change Management"
          - "Agile Leadership"
          - "Process Excellence"
-         - "Stakeholder Management"
+         - "Stakeholder Mgmt"
 
 
 
@@ -203,8 +203,9 @@ params:
             content: "Leading the conception of a massive learning ecosystem.
               
               - **Impact:** Initiated a learning platform for 1,000+ employees and 24,000+ external members.
-              -  **Strategy:** Secured budget, defined scope for SaaS LMS, and designed the change management strategy.
-              - **Leadership:** Bridged the gap between technical requirements and executive business goals."
+              - **Strategy:** Secured budget, defined scope for SaaS LMS, and designed the change management strategy.
+              - **Leadership:** Bridged the gap between technical requirements and executive business goals.
+
 
       - company: "Vodafone GmbH"
         companyUrl: "https://example.com"
@@ -419,7 +420,7 @@ params:
     items:
     # 1. LEARNING ECOSYSTEM (KV Nordrhein)
       - title: "Future Skills Learning Ecosystem"
-        content: "trategic conception of an AI-powered learning ecosystem for 25,000 users. Introduced Synthesia for scalable content creation and secured executive stakeholder buy-in."
+        content: "Strategic conception of an AI-powered learning ecosystem for 25,000 users. Introduced Synthesia for scalable content creation and secured executive stakeholder buy-in."
         image: /images/Screenshot 2026-01-12 kv.png
         featured:
           name: Portfolio
@@ -455,7 +456,7 @@ params:
         # 3. PROCESS MINING (Vodafone)
       - title: "Process Intelligence & Strategic Transformation"
         content: "Executed a dual transformation strategy: Implemented Celonis Process Mining for workflow transparency and led a radical product portfolio simplification, directly driving a ~10% NPS increase."
-        image: /images/Celonis.png
+        image: /images/Process Mining.png
         featured:
           name: Portfolio
           link: "#"
@@ -468,7 +469,7 @@ params:
         # 4. AI AUTOMATION (Vodafone)
       - title: "AI-Powered Automation"
         content: "ntroduction and training of ThinkOwl AI for input management. Achieved a 90% automation rate and reduced manual rework by 40%."
-        image: /images/AI Automation.png
+        image: /images/ThikOwl.png
         featured:
           name: Portfolio
           link: "#"
@@ -481,7 +482,7 @@ params:
       # 5. GLOBAL CRM (Vodafone)
       - title: "Global CRM & User Adoption"
         content: "Steered international Pega CRM rollouts with a strong focus on system stability and user enablement. Led change management initiatives and training programs, boosting user satisfaction by 25%."
-        image: /images/CRM;.png
+        image: /images/User 25 prozent.png
         featured:
           name: Portfolio
           link: "#"
@@ -494,7 +495,7 @@ params:
       # 6. AGILE LEADERSHIP (Vodafone/Exxeta)
       - title: "Agile Leadership & Culture"
         content: "Leading international teams using agile methodologies (SAFe, Scrum). Establishing new collaboration processes to accelerate digital delivery and team performance."
-        image: /images/Teamwork.png
+        image: /images/Agile Leadership.png
         featured:
           name: Portfolio
           link: "#"
