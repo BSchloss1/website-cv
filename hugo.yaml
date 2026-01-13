@@ -208,12 +208,12 @@ params:
 
 
       - company: "Vodafone GmbH"
-        companyUrl: "https://example.com"
+        companyUrl: "#"
         jobs:
           - name: "Expert Strategy & Transformation"
             date: "Aug 2020 - Jun 2024" 
             info:
-              content: Celonis
+            content: Celonis
             content: |
               Driving efficiency through process intelligence.
               
