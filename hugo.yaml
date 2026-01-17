@@ -193,13 +193,15 @@ params:
   experience:
     enable: true
     # title: "Custom Name"
+    
     items:
       - company: "KV Nordrhein"
         companyUrl: "#"
         jobs:
           - name: "IT Project Lead"
             date: "Sep 2024 - Feb 2025"
-            content: "Leading the conception of a massive learning ecosystem.
+            content: |
+              Leading the conception of a massive learning ecosystem.
               
               - **Impact:** Initiated a learning platform for 1,000+ employees and 24,000+ external members.
               - **Strategy:** Secured budget, defined scope for SaaS LMS, and designed the change management strategy.
@@ -208,16 +210,17 @@ params:
       - company: "Vodafone Gmbh"
         companyUrl: "#"
         jobs: 
-         - name: "Expert Strategy & Transformation" 
-           date: "Aug 2020 - Jun 2024" 
-           content: "Driving efficiency through process intelligence.  
+          - name: "Expert Strategy & Transformation" 
+            date: "Aug 2020 - Jun 2024" 
+            content: |
+              Driving efficiency through process intelligence.  
               - **Process Mining:** Developed the integration strategy for Celonis Process Mining to visualize and optimize workflows.
               - **Agile Leadership:** Led international system integration teams using SAFe and Scrum methodologies.
-              - **Simplification:** led a radical product portfolio simplification"
+              - **Simplification:** led a radical product portfolio simplification
 
-         - name: "Digital Specialist"
-           date: "Mar 2015 - Jul 2020"
-           content: |
+          - name: "Digital Specialist"
+            date: "Mar 2015 - Jul 2020"
+            content: |
               Optimizing input management with AI.
               
               - **AI Implementation:** Introduced an AI-based input management system (ThinkOwl) for automated document processing.
