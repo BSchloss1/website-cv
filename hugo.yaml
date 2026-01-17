@@ -1,4 +1,4 @@
-baseURL: "https://bschloss1.github.io/"
+baseURL: "https://bschloss1.github.io/website-cv/"
 languageCode: "en-us"
 title: "Basma Schlosshan"
 theme: hugo-profile
@@ -193,7 +193,7 @@ params:
   experience:
     enable: true
     # title: "Custom Name"
-    
+
     items:
       - company: "KV Nordrhein"
         companyUrl: "#"
