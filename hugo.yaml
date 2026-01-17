@@ -1,4 +1,4 @@
-baseURL: "https://bschloss1.github.io/website-cv/"
+baseURL: "https://bschloss1.github.io/"
 languageCode: "en-us"
 title: "Basma Schlosshan"
 theme: hugo-profile
