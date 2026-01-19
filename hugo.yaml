@@ -110,12 +110,10 @@ params:
     enable: true
     title: "Beyond the Code"
     image: "/images/Basmashooting 1 fotograf.png"
-    content: |-
-        "I operate where business strategy meets technical execution. With a background spanning **telecommunications, energy, and healthcare**, I don’t just implement tools—I optimize the way organizations work.
-
-        From driving operational excellence through Process Mining to leading large-scale IT transformations, my goal is to turn complex data into clear action. I build bridges between IT and business units, ensuring that AI and digital solutions are not just "future-oriented," but practical, efficient, and deeply human."
+    content: |
+        "I operate where business strategy meets technical execution. With a background spanning **telecommunications, energy, and healthcare**, I don’t just implement tools—I optimize the way organizations work. From driving operational excellence through Process Mining to leading large-scale IT transformations, my goal is to turn complex data into clear action. I build bridges between IT and business units, ensuring that AI and digital solutions are not just "future-oriented," but practical, efficient, and deeply human."
   
-   skills:
+    skills:
       enable: true
       title: "Core Competencies (Strategy):"
       items:
@@ -168,7 +166,6 @@ params:
           date: "Aug 2011 - Jun 2013"
           content: |
              Managed technical projects with a strong focus on software integration, quality control, and system testing.
-content: |
                     
                     Managed technical projects with a strong focus on software integration.
              
