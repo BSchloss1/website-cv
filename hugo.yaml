@@ -149,16 +149,16 @@ params:
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
-    button:
-      enable: true
-      #name: "Resume"
-      url: "#"
-      download: true
+    # button:
+      # enable: true
+      # name: "Resume"
+      # url: "#"
+      # download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
-          url: https://example.com
+          url: https://linkedin.com/in/basmaschlosshan
         - icon: fab fa-discord
           url: https://example.com
 
@@ -171,7 +171,7 @@ params:
    enable: true
    title: "About Me"
    image: "/images/Basmashooting 1 fotograf.png"
-   content: |-
+   content: |
         "I operate where business strategy meets technical execution. With a background spanning **telecommunications, energy, and healthcare**, I don’t just implement tools—I optimize the way organizations work.
 
         From driving operational excellence through Process Mining to leading large-scale IT transformations, my goal is to turn complex data into clear action. I build bridges between IT and business units, ensuring that AI and digital solutions are not just "future-oriented," but practical, efficient, and deeply human."
@@ -422,8 +422,8 @@ params:
         content: "trategic conception of an AI-powered learning ecosystem for 25,000 users. Introduced Synthesia for scalable content creation and secured executive stakeholder buy-in."
         image: /images/Ecosystem Lernen.png
         featured:
-          #name: Portfolio
-          link: "#"
+          # name: Portfolio
+          # link: "#"
         badges:
           - "Digital Strategy"
           - "LMS Platform"
@@ -443,9 +443,8 @@ params:
         content: "Managing the agile lifecycle for digital services like 'Praxis for Future'. Orchestrating backlogs, user stories, and sprint planning in Azure DevOps to ensure successful delivery."
         image: /images/Productmgt.png
         featured:
-          #name: Portfolio
-        
-        link: "#"
+          # name: Portfolio     
+        # link: "#"
         badges:
           - "Product Owner"
           - "Azure DevOps"
@@ -457,8 +456,8 @@ params:
         content: "Executed a dual transformation strategy: Implemented Celonis Process Mining for workflow transparency and led a radical product portfolio simplification, directly driving a ~10% NPS increase."
         image: /images/Celonis.png
         featured:
-          #name: Portfolio
-          link: "#"
+          # name: Portfolio
+          # link: "#"
         badges:
           - "Celonis"
           - "Portfolio Strategy"
@@ -470,8 +469,8 @@ params:
         content: "ntroduction and training of ThinkOwl AI for input management. Achieved a 90% automation rate and reduced manual rework by 40%."
         image: /images/AI Automation.png
         featured:
-          #name: Portfolio
-          link: "#"
+          # name: Portfolio
+          # link: "#"
         badges:
           - "AI Implementation"
           - "Automation"
@@ -483,8 +482,8 @@ params:
         content: "Steered international Pega CRM rollouts with a strong focus on system stability and user enablement. Led change management initiatives and training programs, boosting user satisfaction by 25%."
         image: /images/CRM;.png
         featured:
-          #name: Portfolio
-          link: "#"
+          # name: Portfolio
+          # link: "#"
         badges:
           - "Pega Systems"
           - "Change Mgmt"
@@ -496,8 +495,8 @@ params:
         content: "Leading international teams using agile methodologies (SAFe, Scrum). Establishing new collaboration processes to accelerate digital delivery and team performance."
         image: /images/Teamwork.png
         featured:
-          #name: Portfolio
-          link: "#"
+          # name: Portfolio
+          # link: "#"
         badges:
           - "SAFe & Scrum"
           - "Team Leadership"
@@ -529,7 +528,7 @@ params:
       disableFeaturedImage: false
     socialNetworks:
       discord: https://discord.com
-      linkedin: https://linkedin.com
+      linkedin: https://linkedin.com/in/basmaschlosshan
      
   # List pages like blogs and posts
   listPages:
