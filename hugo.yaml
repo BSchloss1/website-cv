@@ -180,8 +180,8 @@ params:
       enable: true
       title: "Core Competencies (Strategy):"
       items:
-         - "Digital Transformation Strategy"
          - "Change Management"
+         - "Digital Transformation Strategy"
          - "Stakeholder Mgt"
          - "Process Excellence"
          - "Agile leadership"
@@ -255,6 +255,14 @@ params:
       - company: "Social Engagement"
         companyUrl: "#"
         jobs:
+          - name: "Mentor & Networker | FIM e. V. (Frauen im Management)"
+            date: "2025 - Present"
+            content: |
+              Active engagement in "Women in Management" networks.
+               
+               - **Empowerment & Visibility:** Active mentor and speaker within the "Women in Management" network, focused on increasing the representation and visibility of women in leadership.
+               - **Strategic Networking:** Dedicated to building robust support structures and fostering cross-industry exchange to empower female tech professionals in their career development.
+
           - name: "Mentor & Networker | #WomenInTech"
             date: "2020 - Present"
             content: |
