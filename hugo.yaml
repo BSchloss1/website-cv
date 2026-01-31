@@ -181,9 +181,9 @@ params:
       title: "Core Competencies (Strategy):"
       items:
          - "Change Management"
-         - "Digital Transformation Strategy"
-         - "Stakeholder Mgt"
          - "Process Excellence"
+         - "Stakeholder Mgt"
+         - "Digital Transformation Strategy"
          - "Agile leadership"
 
 
