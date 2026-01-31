@@ -151,7 +151,7 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
+      #name: "Resume"
       url: "#"
       download: true
       newPage: false
@@ -182,10 +182,9 @@ params:
       items:
          - "Digital Transformation Strategy"
          - "Change Management"
-         - "Agile Leadership (SAFe/Scrum)"
-         - "Stakeholder Management"
+         - "Stakeholder Mgt"
          - "Process Excellence"
-
+         - "Agile leadership"
 
 
 
@@ -200,7 +199,8 @@ params:
         jobs:
           - name: "IT Project Lead"
             date: "Sep 2024 - Feb 2025"
-            content: "Leading the conception of a massive learning ecosystem.
+            content: |
+             "Leading the conception of a massive learning ecosystem.
               
               - **Impact:** Initiated a learning platform for 1,000+ employees and 24,000+ external members.
               - **Strategy:** Secured budget, defined scope for SaaS LMS, and designed the change management strategy.
@@ -408,7 +408,7 @@ params:
       - title: "Certified SAP SCM Consultant"
         content: "Certified Application Associate in Procurement (SAP ERP 6.0) and SCM Solutions Consultant."
         url: "#"
-        image: "/images/sap.png"
+        image: "/images/SAP.png"
 
 
 
@@ -422,7 +422,7 @@ params:
         content: "trategic conception of an AI-powered learning ecosystem for 25,000 users. Introduced Synthesia for scalable content creation and secured executive stakeholder buy-in."
         image: /images/Ecosystem Lernen.png
         featured:
-          name: Portfolio
+          #name: Portfolio
           link: "#"
         badges:
           - "Digital Strategy"
@@ -443,7 +443,7 @@ params:
         content: "Managing the agile lifecycle for digital services like 'Praxis for Future'. Orchestrating backlogs, user stories, and sprint planning in Azure DevOps to ensure successful delivery."
         image: /images/Productmgt.png
         featured:
-          name: Portfolio
+          #name: Portfolio
         
         link: "#"
         badges:
@@ -457,7 +457,7 @@ params:
         content: "Executed a dual transformation strategy: Implemented Celonis Process Mining for workflow transparency and led a radical product portfolio simplification, directly driving a ~10% NPS increase."
         image: /images/Celonis.png
         featured:
-          name: Portfolio
+          #name: Portfolio
           link: "#"
         badges:
           - "Celonis"
@@ -470,7 +470,7 @@ params:
         content: "ntroduction and training of ThinkOwl AI for input management. Achieved a 90% automation rate and reduced manual rework by 40%."
         image: /images/AI Automation.png
         featured:
-          name: Portfolio
+          #name: Portfolio
           link: "#"
         badges:
           - "AI Implementation"
@@ -483,7 +483,7 @@ params:
         content: "Steered international Pega CRM rollouts with a strong focus on system stability and user enablement. Led change management initiatives and training programs, boosting user satisfaction by 25%."
         image: /images/CRM;.png
         featured:
-          name: Portfolio
+          #name: Portfolio
           link: "#"
         badges:
           - "Pega Systems"
@@ -496,7 +496,7 @@ params:
         content: "Leading international teams using agile methodologies (SAFe, Scrum). Establishing new collaboration processes to accelerate digital delivery and team performance."
         image: /images/Teamwork.png
         featured:
-          name: Portfolio
+          #name: Portfolio
           link: "#"
         badges:
           - "SAFe & Scrum"
