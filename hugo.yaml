@@ -160,7 +160,7 @@ params:
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/basmaschlosshan
         - icon: fab fa-discord
-          url: https://example.com
+          url: "#"
 
       #customIcons:
         #- icon: # /fav.png
@@ -178,13 +178,15 @@ params:
   
    skills:
       enable: true
-      title: "Core Competencies (Strategy):"
+      title: "Core Competencies:"
       items:
+         - "AI & Digital Strategy"
+         - "Process Mining (Celonis)"
+         - "Bridging Tech & Business"
          - "Change Management"
-         - "Process Excellence"
-         - "Stakeholder Mgt"
-         - "Digital Transformation Strategy"
-         - "Agile leadership"
+         - "Strategic IT Leadership"
+         - "Strategic Networking (FIM e.V.)"
+
 
 
 
@@ -324,7 +326,7 @@ params:
          **Business Computer Science**
                     
           - Focus: Digital Transformation, IT Project Management, Business Intelligence.
-          - Science meets Practice: My Master's thesis provided the strategic blueprint for the successful Celonis implementation at Vodafone.
+          - Science meets Practice: My Master's thesis provided the strategic blueprint for the successful Celonis implementation at **Vodafone**.
 
       - title: "Business Administration"
         school:
@@ -339,7 +341,7 @@ params:
          **Diploma in Business Administration**
           
          - Focus: Logistics and Business Informatics
-         - Thesis at Miele: “Success Factors in International Consumer Goods Distribution – Illustrated by the Market Entry of Miele Home Appliances in North Africa.”
+         - Thesis at **Miele**: “Success Factors in International Consumer Goods Distribution – Illustrated by the Market Entry of Miele Home Appliances in North Africa.”
     
     #Certification
       #- title: "Certified AI Business Consulting "
