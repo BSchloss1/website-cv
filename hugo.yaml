@@ -149,11 +149,11 @@ params:
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
-    # button:
-      # enable: true
-      # name: "Resume"
-      # url: "#"
-      # download: true
+    button:
+      enable: true
+      name: "Contact Me"
+      url: "mailto:basma@schlosshan.de"
+      download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
@@ -209,7 +209,7 @@ params:
               - **Leadership:** Bridged the gap between technical requirements and executive business goals."
 
       - company: "Vodafone GmbH"
-        companyUrl: "https://example.com"
+        companyUrl: "#"
         jobs:
           - name: "Expert Strategy & Transformation"
             date: "Aug 2020 - Jun 2024" 
@@ -234,7 +234,7 @@ params:
           
 
       - company: "Exxeta GmbH"
-        companyUrl: "https://example.com"
+        companyUrl: "#"
         jobs: 
           - name: "Energy Consultant & QA"
             date: "Aug 2011 - Jun 2013"
@@ -254,10 +254,10 @@ params:
                     - **Technical QA:** Conducted system testing and detailed technical documentation.
                     - **Integration:** Managed software integration projects in the energy sector.
 # --- VOLUNTEER WORK ---
-      - company: "Social Engagement"
+      - company: "#"
         companyUrl: "#"
         jobs:
-          - name: "Mentor & Networker | FIM e. V. (Frauen im Management)"
+          - name: "Mentor & Networker | FIM e. V."
             date: "2025 - Present"
             content: |
               Active engagement in "Women in Management" networks.
@@ -396,7 +396,7 @@ params:
  # Achievements (Certifications & Scholarships)
   achievements:
     enable: true
-    title: "Achievements & Certifications"
+    title: "Certifications"
     items:
     # 1. AI Certification (Moved from Education)
       - title: "Certified AI Business Consulting"
@@ -422,18 +422,18 @@ params:
 
 
 
-  # projects
+  # My projects
   projects:
     enable: true
-    title: "Projects"
+    title: "Selected Projects"
     items:
     # 1. LEARNING ECOSYSTEM (KV Nordrhein)
       - title: "Future Skills Learning Ecosystem"
-        content: "trategic conception of an AI-powered learning ecosystem for 25,000 users. Introduced Synthesia for scalable content creation and secured executive stakeholder buy-in."
+        content: "Strategic conception of an AI-powered learning ecosystem for 25,000 users. Introduced Synthesia for scalable content creation and secured executive stakeholder buy-in."
         image: /images/Ecosystem Lernen.png
         featured:
-          # name: Portfolio
-          # link: "#"
+          name: More Details
+          link: "mailto:basma@schlosshan.de"
         badges:
           - "Digital Strategy"
           - "LMS Platform"
@@ -453,8 +453,8 @@ params:
         content: "Managing the agile lifecycle for digital services like 'Praxis for Future'. Orchestrating backlogs, user stories, and sprint planning in Azure DevOps to ensure successful delivery."
         image: /images/Productmgt.png
         featured:
-          # name: Portfolio     
-        # link: "#"
+          name: More Details    
+          link: "mailto:basma@schlosshan.de"
         badges:
           - "Product Owner"
           - "Azure DevOps"
@@ -466,7 +466,7 @@ params:
         content: "Executed a dual transformation strategy: Implemented Celonis Process Mining for workflow transparency and led a radical product portfolio simplification, directly driving a ~10% NPS increase."
         image: /images/Celonis.png
         featured:
-          # name: Portfolio
+          # name: More Details
           # link: "#"
         badges:
           - "Celonis"
@@ -476,11 +476,11 @@ params:
 
         # 4. AI AUTOMATION (Vodafone)
       - title: "AI-Powered Automation"
-        content: "ntroduction and training of ThinkOwl AI for input management. Achieved a 90% automation rate and reduced manual rework by 40%."
+        content: "Introduction and training of ThinkOwl AI for input management. Achieved a 90% automation rate and reduced manual rework by 40%."
         image: /images/AI Automation.png
         featured:
-          # name: Portfolio
-          # link: "#"
+          name: More Details
+          link: "mailto:basma@schlosshan.de"
         badges:
           - "AI Implementation"
           - "Automation"
@@ -492,8 +492,8 @@ params:
         content: "Steered international Pega CRM rollouts with a strong focus on system stability and user enablement. Led change management initiatives and training programs, boosting user satisfaction by 25%."
         image: /images/CRM;.png
         featured:
-          # name: Portfolio
-          # link: "#"
+           name: More Details
+           link: "mailto:basma@schlosshan.de"
         badges:
           - "Pega Systems"
           - "Change Mgmt"
@@ -505,8 +505,8 @@ params:
         content: "Leading international teams using agile methodologies (SAFe, Scrum). Establishing new collaboration processes to accelerate digital delivery and team performance."
         image: /images/Teamwork.png
         featured:
-          # name: Portfolio
-          # link: "#"
+           name: More Details
+           link: "mailto:basma@schlosshan.de"
         badges:
           - "SAFe & Scrum"
           - "Team Leadership"
