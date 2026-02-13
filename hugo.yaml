@@ -191,7 +191,7 @@ params:
 
 
   
-  # Experience
+  # Experiences
   experience:
     enable: true
     # title: "Custom Name"
@@ -254,7 +254,7 @@ params:
                     - **Technical QA:** Conducted system testing and detailed technical documentation.
                     - **Integration:** Managed software integration projects in the energy sector.
 # --- VOLUNTEER WORK ---
-      - company: "#"
+      - company: "Social Engagement"
         companyUrl: "#"
         jobs:
           - name: "Mentor & Networker | FIM e. V."
@@ -466,8 +466,8 @@ params:
         content: "Executed a dual transformation strategy: Implemented Celonis Process Mining for workflow transparency and led a radical product portfolio simplification, directly driving a ~10% NPS increase."
         image: /images/Celonis.png
         featured:
-          # name: More Details
-          # link: "#"
+          name: More Details
+          link: "mailto:basma@schlosshan.de"
         badges:
           - "Celonis"
           - "Portfolio Strategy"
