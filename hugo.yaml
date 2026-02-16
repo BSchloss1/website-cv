@@ -197,7 +197,7 @@ params:
     # title: "Custom Name"
     items:
       - company: "KV Nordrhein"
-        #companyUrl: ""
+        companyUrl: "https://www.kvno.de/ueber-uns/vor-ort/kreisstellen/duesseldorf"
         jobs:
           - name: "IT Project Lead"
             date: "Sep 2024 - Feb 2025"
@@ -209,7 +209,7 @@ params:
               - **Leadership:** Bridged the gap between technical requirements and executive business goals."
 
       - company: "Vodafone GmbH"
-        #companyUrl: ""
+        companyUrl: "https://www.vodafone.de/"
         jobs:
           - name: "Expert Strategy & Transformation"
             date: "Aug 2020 - Jun 2024" 
@@ -234,7 +234,7 @@ params:
           
 
       - company: "Exxeta GmbH"
-        #companyUrl: ""
+        companyUrl: "https://exxeta.com/"
         jobs: 
           - name: "Energy Consultant & QA"
             date: "Aug 2011 - Jun 2013"
@@ -319,7 +319,7 @@ params:
       - title: "Master of Science (M.Sc.)"
         school:
           name: "IU, International University, Remote"
-          url: "https://example.org"
+          url: "https://www.iu.de/"
         date: "2020 - 2023"
         GPA: ""
         content: |
@@ -331,7 +331,7 @@ params:
       - title: "Business Administration"
         school:
           name: "Westfälische Hochschule, Gelsenkirchen"
-          url: "https://example.org"
+          url: "https://www.w-hs.de/"
         date: "2003 - 2009"
         GPALocation: "Gelsenkirchen, Germany"
         Location: "Gelsenkirchen, Germany"
