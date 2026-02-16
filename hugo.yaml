@@ -197,7 +197,7 @@ params:
     # title: "Custom Name"
     items:
       - company: "KV Nordrhein"
-        companyUrl: ""
+        #companyUrl: ""
         jobs:
           - name: "IT Project Lead"
             date: "Sep 2024 - Feb 2025"
@@ -209,7 +209,7 @@ params:
               - **Leadership:** Bridged the gap between technical requirements and executive business goals."
 
       - company: "Vodafone GmbH"
-        companyUrl: ""
+        #companyUrl: ""
         jobs:
           - name: "Expert Strategy & Transformation"
             date: "Aug 2020 - Jun 2024" 
@@ -234,7 +234,7 @@ params:
           
 
       - company: "Exxeta GmbH"
-        companyUrl: ""
+        #companyUrl: ""
         jobs: 
           - name: "Energy Consultant & QA"
             date: "Aug 2011 - Jun 2013"
@@ -255,7 +255,7 @@ params:
                     - **Integration:** Managed software integration projects in the energy sector.
 # --- VOLUNTEER WORK ---
       - company: "Social Engagement"
-        companyUrl: "#"
+        #companyUrl: "#"
         jobs:
           - name: "Mentor & Networker | FIM e. V."
             date: "2025 - Present"
